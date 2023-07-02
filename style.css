@@ -1,0 +1,46 @@
+  body{ margin:0; background-color: black;}    
+   header { background-color:#997231;  font-size:25px; padding:12px; margin-left:0;
+   } 
+   a { color: white; font-weigth:bold; text-decoration: none; display:block;  margin-left: 0;
+  }
+  h3 {
+      text-align:center;
+  }
+   nav a {  
+  background-color:white;  background-color: #997231; padding: 12px 12px 12px 32px;
+   }
+   
+   nav{position:fixed; z-index: 1;      background-color:#997231; height:100%; left:0; top:0; overflow:hidden; width:0px; transition: width 0.3s; margin-left:0; 
+              
+   } 
+   
+   nav a:hover { color:#997231;  transition-duration: .2s; background-color:white;}
+   
+   main {  background-color: white;
+   padding:5px; padding-bottom: 22px;
+   transition: margin-left: 200px 0.5s;   }
+   .cnt1 { 
+       display: flex; align-items:center; justify-content:center;
+   }
+      .ttl { position:absolute; top:0; left:50vw;
+    width: 200px;
+   }
+.container { display: inline-block; float: left;
+    width: 100%; margin:2px;  max-width:500px;
+    margin-bottom: 10px;}
+p {
+    margin : 10px; text-align: center;
+}
+span {
+    
+}
+
+button { padding: 20px; border:inset 2px #3BB1F2; margin:5px; width: 150px;
+    color: white; font-weigth: bold; border-radius:15px; background-color: #997231;
+}
+footer { margin:0; padding: 0; 
+    
+}
+img { float: left;
+    width:100%; margin:0; max-width:600px; max-height: 400px;
+}
